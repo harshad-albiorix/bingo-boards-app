@@ -40,7 +40,7 @@ export const BingoBoard = () => {
       const n = arr[random];
       arr.splice(random, 1);
       setNum(n);
-      await new Promise((resolve) => setTimeout(resolve, 100));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
   }, [start]);
 
